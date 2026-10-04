@@ -1,0 +1,14 @@
+def circle_diameter(radius):
+    return 2 * radius
+def sum_range(start, end):
+    if start > end:
+        return 0
+    n = end - start +1
+    return n * (start + end)//2
+if __name__=="__main__":
+    print(circle_diameter(5))
+    print(sum_range(100, 500))
+    print(sum_range(1, 10))
+    print(sum_range(500, 500))
+
+    
